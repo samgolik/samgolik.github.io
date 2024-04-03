@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.splash {
+    flex: 1;
+    order: 1;
+}
+
+.content {
+    flex: 2;
+    order: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
