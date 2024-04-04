@@ -18,6 +18,7 @@
     order: 2;
     padding: 20px;
     overflow-y: auto;
+
 }
 
 body {
@@ -76,6 +77,7 @@ body {
 }
 
 .content h1 {
+    margin-top: 50px;
     font-family: 'Lato';
     color: rgb(190, 190, 190);
 }
@@ -87,4 +89,8 @@ body {
     font-weight: 400;
     letter-spacing: 0px;
     line-height: 25px;
+}
+
+.experience figure {
+    scale: 0.8;
 }
