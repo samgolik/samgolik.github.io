@@ -1,4 +1,4 @@
-.container {
+/* .container {
     display: flex;
     flex-direction: row;
 }
@@ -99,4 +99,78 @@ body {
 
 .experience figure {
     scale: 0.8;
+}
+
+.socials a img {
+    stroke: white;
+    fill: white;
+    color: white;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+}
+
+.header .header-container {
+    flex: 7;
+    background-color: rgb(46, 31, 66);
+    border-radius: 15px;
+    margin: 10px;
+    padding: auto;
+}
+
+.header h1 {
+    color: #EEEEEE;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header h2 {
+    width: 50%;
+    color: #EEEEEE;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.header button {
+}
+
+
+.headshot-container {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.projects {
+    flex: 4;
+    background-color: transparent;
+}
+
+.headshot-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
