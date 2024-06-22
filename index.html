@@ -7,6 +7,7 @@
     <title>Sam Golik</title>
     <link rel="icon" href="hand_wave.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -16,19 +17,19 @@
     <div class="container">
         <div class="header">
             <div class="header-container">
-                <h1>Hi, I'm Sam. 👋 </h1>
-                <h2>I'm a software engineer. I live in Washington D.C. I like building things. Stay a while!</h2>
-                <button></button>
+                <div class="header-text-container">
+                    <h1>Hi, I'm Sam. 👋 </h1>
+                    <h2>I'm a software engineer. I live in Washington D.C. I like building things. Stay a while!</h2>
+                </div>
+                <div class="socials-container"><button onclick="openTwitter()">Contact</button></div>
             </div>
             <div class="headshot-container"><img src="headshot.jpg" alt="really cute headshot"></div>
-            <div class="socials-container"></div>
         </div>
         <div class="projects">
-            <div class="project">die up</div>
-            <div class="project">rhythmix</div>
+            <div class="project" id="die-up">die up</div>
+            <div class="project" id="rhythmix">rhythmix</div>
         </div>
     </div>
-
 </body>
 
 </html>
