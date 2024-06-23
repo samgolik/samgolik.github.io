@@ -37,7 +37,7 @@ body {
 }
 
 .header h2 {
-    width: 50%;
+    width: 48%;
     color: #EEEEEE;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -46,6 +46,7 @@ body {
     margin: 20px;
     margin-top: 0px;
     padding: 20px;
+    letter-spacing: 1px;
 }
 
 .headshot-container {
@@ -104,7 +105,6 @@ body {
 .about-me {
     display: flex;
     flex-direction: row;
-    border-radius: 40px;
 }
 
 .about-me #personal {
@@ -114,7 +114,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 20px;
-    background-color: rgb(36, 77, 87);
+    background-color: rgb(68, 129, 144);
 }
 
 .about-me #personal h2 {
@@ -130,23 +130,46 @@ body {
 
 .about-me #wakatime {
     border-radius: 40px;
-    flex: 3;
-
+    flex: 2;
     margin: 20px;
     margin-right: 0px;
-    background-color: rgb(45, 75, 105);
-
+    background-color: rgb(86, 116, 145);
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+}
+
+.wakatime-chart {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-me #wakatime figure {
     margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+embed {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .about-me #wakatime h1 {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -161,6 +184,7 @@ body {
     flex-direction: row;
     background-color: transparent;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
 .project {
@@ -169,16 +193,48 @@ body {
     margin-top: 0px;
     flex: 1;
     background-color: #EEEEEE;
-    height: 70%;
+    height: 80%;
+}
+
+.project-title {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.project-title h1 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    color: #EEEEEE;
+}
+
+.project-title h2 {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 20px;
+    padding: 0px;
+    color: #DDDDDD;
 }
 
 #die-up {
     margin-right: 0px;
     background-position: center;
     background-size: 150%;
-    background-image: url("dieup.png");
+    background-image: url("die-up-logo.png");
+    background-color: #8f8383;
+}
+
+#die-up:hover {
+    background-color: #9e9191;
+    cursor: grab;
+
 }
 
 #rhythmix {
     margin-right: 0px;
+    background-color: #8f8383;
 }
