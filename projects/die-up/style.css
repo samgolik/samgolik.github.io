@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #DDDDDD;
+}
+
+.content {
+    width: 60%;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.app-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-info {
+    flex: 5;
+}
+
+.header-image {
+    flex: 2;
+    background-color: red;
+}
+
+.header-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.app-info img {
+    width: 100%;
+    height: 100%;
+}

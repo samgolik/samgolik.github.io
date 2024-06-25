@@ -175,7 +175,6 @@ embed {
     font-weight: 300;
     font-size: 20px;
     color: #EEEEEE;
-    margin: 0px;
 }
 
 .projects {
@@ -224,14 +223,17 @@ embed {
     margin-right: 0px;
     background-position: center;
     background-size: 150%;
-    background-image: url("die-up-logo.png");
     background-color: #8f8383;
 }
 
 #die-up:hover {
     background-color: #9e9191;
     cursor: grab;
+}
 
+#die-up .project-image img {
+    height: 100%;
+    width: 100%;
 }
 
 #rhythmix {
