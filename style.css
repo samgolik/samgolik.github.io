@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     background-color: rgb(46, 31, 66);
     border-radius: 40px;
-    margin: 20px;
+    margin: 15px;
     padding: auto;
 }
 
@@ -30,7 +30,7 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 48px;
-    margin: 20px;
+    margin: 15px;
     margin-bottom: 0px;
     padding: 20px;
     padding-bottom: 10px;
@@ -43,7 +43,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-size: 18px;
-    margin: 20px;
+    margin: 15px;
     margin-top: 0px;
     padding: 20px;
     letter-spacing: 1px;
@@ -67,7 +67,7 @@ body {
 .socials-container {
     width: 50%;
     display: flex;
-    margin: 20px;
+    margin: 15px;
 }
 
 .socials-container button {
@@ -80,8 +80,8 @@ body {
     border-radius: 40px;
     border: none;
     background-color: #DDDDDD;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .socials-container button:hover {
@@ -113,7 +113,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 20px;
+    margin: 15px;
     background-color: rgb(68, 129, 144);
 }
 
@@ -130,8 +130,8 @@ body {
 
 .about-me #wakatime {
     border-radius: 40px;
-    flex: 2;
-    margin: 20px;
+    flex: 3;
+    margin: 15px;
     margin-right: 0px;
     background-color: rgb(86, 116, 145);
     display: flex;
@@ -220,10 +220,10 @@ embed {
 }
 
 #die-up {
+    display: flex;
     margin-right: 0px;
-    background-position: center;
-    background-size: 150%;
     background-color: #8f8383;
+    flex-direction: column;
 }
 
 #die-up:hover {
@@ -231,9 +231,15 @@ embed {
     cursor: grab;
 }
 
+#die-up .project-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #die-up .project-image img {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    margin-bottom: 100px;
 }
 
 #rhythmix {
