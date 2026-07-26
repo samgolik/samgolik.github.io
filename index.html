@@ -1,92 +1,17 @@
-<!DOCTYPE html>
-<html lang="en" lang="en" xml:lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sam Golik</title>
-    <link rel="icon" href="hand_wave.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <div class="container">
-        <div class="header">
-            <div class="header-container">
-                <div class="header-text-container">
-                    <h1>Hi, I'm Sam. 👋 </h1>
-                    <h2>I'm a software engineer. I live in Washington D.C. I like building things. Stay a while!</h2>
-                </div>
-                <div class="socials-container"><button onclick="openTwitter()">Contact</button></div>
-            </div>
-            <div class="headshot-container"><img src="headshot.jpg" alt="really cute headshot"></div>
-        </div>
-        <div class="text-bumper">
-            <h1>About Me</h1>
-        </div>
-        <div class="about-me">
-            <div id="wakatime">
-                <h1>My top languages in the last 30 days</h1>
-                <div class="wakatime-chart">
-                    <figure><embed
-                            src="https://wakatime.com/share/@018ea1fd-fd45-45c9-a03f-07311c0634bf/0b490a41-c875-4403-8928-9e258a95d303.svg"></embed>
-                    </figure>
-                </div>
-            </div>
-            <div id="personal">
-                <h2>
-                    I currently go to The Ohio State University, where I'm working on my Bachelor's of Science in
-                    Computer Science and Engineering. I have a specialization in artifical intelligence as well as a
-                    mathematics minor. This summer, I'm in the Technology Internship Program at Capital One in
-                    Washington, D.C.
-                </h2>
-                <h2>
-                    My background is in
-                    object-oriented programming and web development. I have more recent experience with Flutter/Dart
-                    through my previous internship as
-                    well as personal
-                    projects. Most recently, I've been getting into artifical intelligence and machine learning.
-                    I love learning new things and talking tech, so feel free to reach out!
-                </h2>
-                <h2>
-                    In my free time, I have my hands full with a variety of hobbies. I'm a musician, and I've been
-                    playing
-                    the violin for over 10 years. I still play in the Ohio State Symphony Orchestra! I also enjoy
-                    playing
-                    cello and piano. I like running and hiking, and have recently been getting into rock climbing
-                    and disc golf. I'm originally from Cleveland and have two older brothers and a golden retriever
-                    named Rigby.
-                </h2>
-            </div>
-        </div>
-        <div class="text-bumper">
-            <h1>Projects</h1>
-        </div>
-        <div class="projects">
-            <div class="project" id="die-up" onclick="openProject('projects/die-up/index.html')">
-                <div class="project-title">
-                    <h1>Die Up!</h1>
-                    <h2>A new way to track scores</h2>
-                </div>
-                <div class="project-image"><img src="die-up-logo.png" alt="die up logo"></div>
-            </div>
-            <div class="project" id="rhythmix">
-                <div class="project-title">
-                    <h1>Coming soon</h1>
-                </div>
-            </div>
-            <div class="project" id="rhythmix">
-                <div class="project-title">
-                    <h1>Coming soon</h1>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</body>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Sam Golik, a software engineer and builder based in Washington, D.C." />
+    <link rel="icon" href="/hand_wave.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+    <title>Sam Golik — Software Engineer</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
